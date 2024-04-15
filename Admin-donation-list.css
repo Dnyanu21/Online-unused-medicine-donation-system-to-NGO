@@ -1,0 +1,146 @@
+*{
+    box-sizing: border;
+}
+.name{
+    margin:0;
+    background-color: #AEE2FF;
+    
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    background-color: #F0EEED;
+    padding: 0px;
+}
+.navbar li{
+    list-style: none;
+    font-family: "'Suez One', serif";
+
+}
+.navbar-links ul{
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    margin-top: 16px;
+  
+}
+h4{
+    font-family: "'Suez One', serif";
+    margin:0;
+    padding: 5px;
+    font-size: 25px;
+}
+h2{
+  font-family: "'Suez One', serif";
+  margin: 20px auto 20px 30px ;
+  font-weight: 600;
+  font-size: 25px;
+  
+}
+#myInput {
+background-image: url('./IMAGES/Search-icon.png'); /* Add a search icon to input */
+background-position: 10px 12px; /* Position the search icon */
+background-repeat: no-repeat; /* Do not repeat the icon image */
+width: 1090px; /* Full-width */
+font-size: 16px; /* Increase font-size */
+padding: 12px 20px 12px 40px; /* Add some padding */
+border: 1px solid #ddd; /* Add a grey border */
+margin-bottom: 12px; /* Add some space below the input */
+margin-left: 30px;
+}
+
+#myTable {
+border-collapse: collapse; /* Collapse borders */
+width: 1090px; /* Full-width */
+border: 1px solid #ddd; /* Add a grey border */
+font-size: 18px; /* Increase font-size */
+margin-left: 30px;
+}
+
+#myTable th, #myTable td {
+text-align: left; /* Left-align text */
+padding: 12px; /* Add padding */
+font-family: "'Suez One', serif";
+}
+
+#myTable tr {
+/* Add a bottom border to all table rows */
+border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+/* Add a grey background color to the table header and on hover */
+background-color: #f1f1f1;
+}
+
+.btn {
+    background: #23ed85;
+    background-image: -webkit-linear-gradient(top, #23ed85, #56bf7d);
+    background-image: -moz-linear-gradient(top, #23ed85, #56bf7d);
+    background-image: -ms-linear-gradient(top, #23ed85, #56bf7d);
+    background-image: -o-linear-gradient(top, #23ed85, #56bf7d);
+    background-image: linear-gradient(to bottom, #23ed85, #56bf7d);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .btn:hover {
+    background: #50e68c;
+    background-image: -webkit-linear-gradient(top, #50e68c, #6ee09b);
+    background-image: -moz-linear-gradient(top, #50e68c, #6ee09b);
+    background-image: -ms-linear-gradient(top, #50e68c, #6ee09b);
+    background-image: -o-linear-gradient(top, #50e68c, #6ee09b);
+    background-image: linear-gradient(to bottom, #50e68c, #6ee09b);
+    text-decoration: none;
+    color: black;
+  }
+
+  .button {
+background: #f54242;
+background-image: -webkit-linear-gradient(top, #f54242, #db343a);
+background-image: -moz-linear-gradient(top, #f54242, #db343a);
+background-image: -ms-linear-gradient(top, #f54242, #db343a);
+background-image: -o-linear-gradient(top, #f54242, #db343a);
+background-image: linear-gradient(to bottom, #f54242, #db343a);
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: Arial;
+color: #ffffff;
+font-size: 15px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+border: 0;
+}
+
+.button:hover {
+background: #fa4d67;
+background-image: -webkit-linear-gradient(top, #fa4d67, #f53f4f);
+background-image: -moz-linear-gradient(top, #fa4d67, #f53f4f);
+background-image: -ms-linear-gradient(top, #fa4d67, #f53f4f);
+background-image: -o-linear-gradient(top, #fa4d67, #f53f4f);
+background-image: linear-gradient(to bottom, #fa4d67, #f53f4f);
+text-decoration: none;
+color: black;
+}
+#Logout{
+    padding-left: 470px;
+  }
+/* Additional styles for desktop */
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1400px; /* Adjust the maximum width based on your preference */
+        margin: 0 auto;
+    }
+}
