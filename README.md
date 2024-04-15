@@ -1,3 +1,4 @@
+Description : 
 This project aims to facilitate the donation of unused medicines to NGOs, helping people who cannot afford to buy medication. The platform provides a user-friendly interface for individuals to donate their unused medicines, which are then distributed by NGOs to those in need.
 
 Technologies Used:
@@ -35,6 +36,7 @@ Submit a pull request.
 Authors:
 
 Vidhi Patil
+
 Dnyneshwari Markad
 
 Acknowledgements:
